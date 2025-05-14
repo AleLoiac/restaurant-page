@@ -1,6 +1,7 @@
 import "./styles.css";
 import { firstPage } from "./homeModule";
 import { menuPage } from "./menuModule";
+import { aboutPage } from "./aboutModule";
 
 const content = document.querySelector("#content");
 const btnHome = document.querySelector(".btn-home");
@@ -21,4 +22,5 @@ btnMenu.addEventListener("click", () => {
 
 btnAbout.addEventListener("click", () => {
     content.innerHTML = "";
+    aboutPage();
 });
