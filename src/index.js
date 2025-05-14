@@ -1,5 +1,5 @@
 import "./styles.css";
-import { firstPage } from "./firstLoad";
+import { firstPage } from "./homeModule";
 
 const content = document.querySelector("#content");
 const btnHome = document.querySelector(".btn-home");
