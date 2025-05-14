@@ -95,6 +95,7 @@ h2 {
     margin-left: auto;
 }
 
-.hours {
+.hours, 
+.location {
     text-align: center;
 }
