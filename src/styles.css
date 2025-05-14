@@ -99,3 +99,13 @@ h2 {
 .location {
     text-align: center;
 }
+
+.entry {
+    display: flex;
+    justify-content: space-between;
+}
+
+.entry-description {
+    padding-left: 30px;
+    margin: 0;
+}
