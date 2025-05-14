@@ -109,3 +109,7 @@ h2 {
     padding-left: 30px;
     margin: 0;
 }
+
+#content > .background > .shop {
+    width: 100%;
+}
